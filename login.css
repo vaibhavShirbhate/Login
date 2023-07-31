@@ -1,0 +1,63 @@
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+     
+    h1 {
+        text-align:center;
+        color:green;
+        -webkit-text-stroke: 1px black;
+    }
+     
+    /* styling background image */
+    .bg-img {
+        background-color: aqua;
+        min-height: 380px;
+        height: 100vh;
+        background-size: cover;
+    }
+         
+    /* Styling the form container */
+    .container {
+        display: flex;
+        justify-content: center;
+        padding: 16px;
+    }
+    .form-box{
+        max-width: 300px;
+    }
+     
+    b {
+        color: green;
+        font-size:26px;
+        -webkit-text-stroke: 1px black;
+    }
+         
+    /* Full-width input */
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 15px 0px;
+        border: 2px solid green;
+    }
+     
+         
+    /* Styling the submit button */
+    .button {
+        background-color: green;
+        color: white;
+        padding: 16px 16px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+     
+    .button:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+    }
